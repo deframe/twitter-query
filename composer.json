@@ -1,0 +1,26 @@
+{
+    "name": "dagrfr/twitter-query",
+    "description": "A simple PHP library for querying Twitter's Search API.",
+    "type": "library",
+    "keywords": [
+        "php",
+        "twitter"
+    ],
+    "homepage": "https://github.com/deframe/twitter-query/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Frame",
+            "email": "deframe@cryst.co.uk",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "TwitterQuery/"
+        ]
+    }
+}
